@@ -2,9 +2,10 @@
 
 ***Developed by Md. Almas Ali***
 
-There are some simple tools are in this project. You can find source codes in `src` folder and the windows binary in the `bin` folder. <br><br>
+There are some simple tools are in this project. You can find source codes in `src`. <br><br>
 
-There is now major 2 utility.
+There is now major 2 utilitys now.
+
 1. uptime - Which returns system uptime.
 
 ![UPTIME](https://raw.githubusercontent.com/Almas-Ali/simple-system-utility/master/img/uptime1.png "UPTIME")
@@ -14,23 +15,20 @@ There is now major 2 utility.
 ![WHOIS](https://raw.githubusercontent.com/Almas-Ali/simple-system-utility/master/img/whois1.png "WHOIS")
 
 
-## Other platform binary help
-if you want to use it in other platform, then you can simply build it with [Python 3][1] <br>
+## Any platform binary help
+if you want to use it in any platform as binary, then you can simply build it with [Python 3][1] and it will automatically install for you. <br>
 
-Go to `src` folder and open your terminal in that folder. First install [Python 3][1].
+So, go to the main project folder and open your terminal in that folder. But first confirm [Python 3][1] installation.
 
-Then in terminal type: <br>
+### Then follow commands bellow:
 
-```
-pip3 install pyinstaller
+1. For windows:
+    - `install.bat` run as administrator.
 
-pyinstaller --onefile .\src\uptime.py
-pyinstaller --onefile .\src\whois.py
+2. For Linux:
+    - `sudo bash install.sh` in terminal.
 
-```
-
-You can get your binary file in `dist` folder in your current directory.
-
+After all done, open a new terminal and type `uptime`, `whois` and have fun !
 
 ## Feel free to post an issue or pull request.
 
