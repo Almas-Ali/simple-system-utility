@@ -7,11 +7,11 @@ There are some simple tools are in this project. You can find source codes in `s
 There is now major 2 utility.
 1. uptime - Which returns system uptime.
 
-![UPTIME](img/uptime1.png "UPTIME")
+![UPTIME](https://raw.githubusercontent.com/Almas-Ali/simple-system-utility/master/img/uptime1.png "UPTIME")
 
 2. whois - Which returns a list of information about your system.
 
-![WHOIS](img/whois1.png "WHOIS")
+![WHOIS](https://raw.githubusercontent.com/Almas-Ali/simple-system-utility/master/img/whois1.png "WHOIS")
 
 
 ## Other platform binary help
